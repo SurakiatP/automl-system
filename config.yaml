@@ -1,0 +1,18 @@
+# Configuration for AutoML Pipeline
+
+# Data settings
+data_path: data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv
+target_col: Churn
+
+# Feature selection
+k_features: 15
+
+# Model selection
+scoring: f1
+cv: 5
+do_tuning: false
+
+# Output paths
+model_output: models/best_model.pkl
+metrics_output: reports/metrics.json
+report_output: reports/run_summary.csv

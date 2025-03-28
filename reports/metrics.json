@@ -1,0 +1,14 @@
+{
+    "LogisticRegression": {
+        "mean_score": 0.5856397588137037,
+        "std_score": 0.022490778804849853
+    },
+    "RandomForest": {
+        "mean_score": 0.5350132008023563,
+        "std_score": 0.016615132633153406
+    },
+    "XGBoost": {
+        "mean_score": 0.5545596506308088,
+        "std_score": 0.013928782914464435
+    }
+}

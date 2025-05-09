@@ -1,21 +1,21 @@
-# 📈 AutoML System: Telco Customer Churn Prediction
+# AutoML System: Telco Customer Churn Prediction
 
-## 🚀 Overview
+## Overview
 This project implements a fully-automated machine learning (AutoML) pipeline to predict customer churn in a telecommunications company using the Telco Customer Churn dataset. The AutoML pipeline simplifies the process of data cleaning, feature engineering, model selection, hyperparameter tuning, and evaluation.
 
 ---
-## 🧱 Project Workflow Architecture
+## Project Workflow Architecture
 
 ![alt text](project_workflow.png)
 
 ---
 
-## 🎯 Goals
+## Goals
 - Develop an automated pipeline capable of efficiently predicting customer churn.
 - Enable rapid experimentation and deployment of different ML models.
 - Reduce manual data science tasks and optimize business decisions through automation.
 
-## 📊 Dataset
+## Dataset
 The dataset used in this project is **Telco Customer Churn**, sourced from IBM:
 - Approximately 7,000 customer records.
 - Features include customer demographics, service usage, contract details, and payment methods.
@@ -23,7 +23,7 @@ The dataset used in this project is **Telco Customer Churn**, sourced from IBM:
 
 [Download the Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-## 🧩 Project Structure
+## Project Structure
 
 ```
 automl-system/
@@ -60,7 +60,7 @@ automl-system/
 └── .gitignore
 ```
 
-## 🔧 Workflow & Pipeline Steps
+## Workflow & Pipeline Steps
 
 ### 1. **Extract, Transform, Load (ETL)**
 - Raw dataset is loaded, cleaned, encoded, and scaled.
@@ -84,7 +84,7 @@ automl-system/
 ### 6. **Pipeline Automation**
 - Uses scikit-learn pipelines to modularize and automate ML tasks.
 
-## 📝 Running the Project
+## Running the Project
 
 ### Set up Python Environment
 ```bash
@@ -105,25 +105,25 @@ jupyter notebook
 # Open 02_debug_pipeline.ipynb
 ```
 
-## 📌 Results & Findings
+## Results & Findings
 - Best model automatically selected based on cross-validation results.
 - Evaluation metrics clearly highlight the model's predictive capability.
 
-## 🗒 Conclusion
+## Conclusion
 - AutoML significantly streamlines predictive modeling.
 - Achieved effective churn prediction with minimal manual intervention.
 
-## 🚧 Future Work
+## Future Work
 - Enhance with real-time prediction capabilities using FastAPI.
 - Add SHAP/LIME for model explainability.
 - Integrate external datasets (e.g., economic factors).
 
-## 🤝 Contribution
+## Contribution
 Feel free to fork this repository and make improvements or suggest changes.
 
 ---
 
-**Happy Machine Learning!** 🚀📊
+**Happy Machine Learning!**
 
 ---
 
